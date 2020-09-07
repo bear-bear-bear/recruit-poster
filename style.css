@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +23,7 @@ body {
   height: 100vh;
   background: linear-gradient(#bc5a5a, #c9a55e);
   padding: var(--poster-padding);
+  font-family: "Noto Sans KR", sans-serif;
   overflow: hidden;
 }
 
@@ -44,6 +48,9 @@ body {
   align-items: center;
   flex: 0.66;
   height: auto;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 9rem;
+  transform: rotateZ(-4deg);
 }
 .sub-text {
   display: flex;
