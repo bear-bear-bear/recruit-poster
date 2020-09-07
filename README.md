@@ -1,11 +1,11 @@
 # recruit-poster
 
-##### ÇÐ±³¿¡¼­ ÁøÇàÇÒ ÆÀ ÇÁ·ÎÁ§Æ®ÀÇ ¸ðÁý Æ÷½ºÅÍ
+##### í•™êµì—ì„œ ì§„í–‰í•  íŒ€ í”„ë¡œì íŠ¸ì˜ ëª¨ì§‘ í¬ìŠ¤í„°
 
 ---
 
-- Go to website ¡æ <a href="https://bear-bear-bear.github.io/recruit-poster/">¸ðÁý°ø°í Æ÷½ºÅÍ ¹Ù·Î°¡±â</a>
+- Go to website â†’ <a href="https://bear-bear-bear.github.io/recruit-poster/">ëª¨ì§‘ê³µê³  í¬ìŠ¤í„° ë°”ë¡œê°€ê¸°</a>
   <br/><br/>
-- »ç¿ëµÈ ½ºÅÃ
+- ì‚¬ìš©ëœ ìŠ¤íƒ
   - html
   - css
