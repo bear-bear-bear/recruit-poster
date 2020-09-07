@@ -9,10 +9,11 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
   --poster-padding: 15px;
   --header-padding: 3px;
   --footer-padding: 3px;
+  --main-text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -34,6 +35,10 @@ body {
   width: calc(100vw - var(--poster-padding) * 2);
   text-align: right;
 }
+.poster-header__hidden-text {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
 
 .poster-main {
   display: flex;
@@ -51,35 +56,71 @@ body {
   font-family: "Nanum Brush Script", cursive;
   font-size: 9rem;
   transform: rotateZ(-4deg);
+  text-shadow: var(--main-text-shadow);
 }
 .sub-text {
   display: flex;
   flex: 0.34;
   height: auto;
 }
+.sub-text__title-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
 .sub-text__title {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.1rem;
+}
+.sub-text__title--big {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: var(--main-text-shadow);
+}
+
+.sub-text__detail-wrapper {
+  display: flex;
+  justify-content: flex-start;
   flex: 1;
 }
 .sub-text__detail {
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 .sub-text__sub-title {
   display: flex;
   flex-direction: column;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-shadow: var(--main-text-shadow);
 }
 .sub-text__desc {
+  font-size: 0.95rem;
 }
 .poster-footer {
   position: fixed;
   bottom: calc(var(--poster-padding) + var(--footer-padding));
-  left: calc(var(--poster-padding) + var(--footer-padding));
   width: calc(100vw - var(--poster-padding) * 2);
-  text-align: left;
+}
+.poster-footer span:first-child,
+.poster-footer span:last-child {
+  position: absolute;
+  bottom: var(--poster-padding);
+}
+.poster-footer span:first-child {
+  left: calc(var(--poster-padding) + var(--footer-padding));
+}
+.poster-footer span:last-child {
+  right: calc(var(--poster-padding) + var(--footer-padding));
+  display: flex;
+}
+.poster-footer span:last-child i {
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
 }
 
 /* --------------temp ------------ */
