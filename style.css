@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --poster-padding: 15px;
+  --header-padding: 3px;
+  --footer-padding: 3px;
+}
+
+body {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: var(--poster-padding);
+  overflow: hidden;
+}
+
+.poster-header {
+  position: fixed;
+  top: calc(var(--poster-padding) + var(--header-padding));
+  right: calc(var(--poster-padding) + var(--header-padding));
+  width: calc(100vw - var(--poster-padding) * 2);
+  text-align: right;
+}
+
+.poster-footer {
+  position: fixed;
+  bottom: calc(var(--poster-padding) + var(--footer-padding));
+  left: calc(var(--poster-padding) + var(--footer-padding));
+  width: calc(100vw - var(--poster-padding) * 2);
+  text-align: left;
+}
+
+/* --------------temp ------------ */
+
+.poster-header,
+.poster-main,
+.main-text,
+.sub-text,
+.poster-footer {
+  border: 8px solid black;
+}
+.poster-main,
+.main-text,
+.sub-text {
+  display: none;
+}
