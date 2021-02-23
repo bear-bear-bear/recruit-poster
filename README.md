@@ -4,6 +4,8 @@
 
 ---
 
+<img src="https://github.com/bear-bear-bear/recruit-poster/blob/master/preview.PNG" width="100%">
+
 - Go to website → <a href="https://bear-bear-bear.github.io/recruit-poster/">모집공고 포스터 바로가기</a>
   <br/><br/>
 - 사용된 스택
